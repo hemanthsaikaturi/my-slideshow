@@ -24,7 +24,7 @@ const Slideshow = () => {
   };
 
   useEffect(() => {
-    const autoSlideInterval = setInterval(nextSlide, 3000); 
+    const autoSlideInterval = setInterval(nextSlide, 3500); 
 
     const handleKeyDown = (e) => {
       if (e.key === 'ArrowRight') {
